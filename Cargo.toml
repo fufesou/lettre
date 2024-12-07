@@ -73,7 +73,7 @@ rsa = { version = "0.9", optional = true }
 ed25519-dalek = { version = "2", optional = true }
 
 # email formats
-email_address = { version = "0.2.1", default-features = false }
+email_address = { git = "https://github.com/rustdesk-org/rust-email_address", branch = "refact/local_part_max_length_from_env", default-features = false }
 
 [dev-dependencies]
 pretty_assertions = "1"

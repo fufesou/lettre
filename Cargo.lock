@@ -707,8 +707,7 @@ dependencies = [
 [[package]]
 name = "email_address"
 version = "0.2.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e079f19b08ca6239f47f8ba8509c11cf3ea30095831f7fed61441475edd8c449"
+source = "git+https://github.com/rustdesk-org/rust-email_address?branch=refact/local_part_max_length_from_env#bba7095b2d68a6f14bfe6c3e682349b309492076"
 
 [[package]]
 name = "errno"
